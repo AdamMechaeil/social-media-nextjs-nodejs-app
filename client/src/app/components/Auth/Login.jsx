@@ -17,7 +17,7 @@ export const Login = ({ setMode }) => {
   return (
     <div className="wrapper">
       <div className="logo">
-        <img src="C:\Users\SHIAVM YADAV\Downloads\login.jpg" alt="" />
+        <img src="https://cdn-icons-png.flaticon.com/512/1791/1791961.png" alt="" />
       </div>
       <div className="text-center mt-4 name">
         Login
