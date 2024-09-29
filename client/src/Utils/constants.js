@@ -1,5 +1,5 @@
 import axios from "axios";
-const BASE_URL="http://localhost:8000"
+const BASE_URL="https://social-media-nextjs-nodejs-app.vercel.app/"
 export const API = axios.create({ baseURL: BASE_URL});
 
 
