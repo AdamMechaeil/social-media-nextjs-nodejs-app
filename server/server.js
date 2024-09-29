@@ -18,6 +18,9 @@ app.use(
   })
 );
 app.use(bodyParser.urlencoded({ extended: false }));
+app.get("/",(req,res)=>{
+  res.send("Welcome TO APP")
+})
 app.use("/posts",postRouter);
 app.use("/auth",authRouter);
 app.use("/user",userRouter);
