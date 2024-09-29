@@ -13,7 +13,7 @@ connectDb();
 app.use(cors());
 app.use(
   bodyParser.json({
-    limit: "100mb",
+    limit: "500mb",
     extended: true,
   })
 );
@@ -23,7 +23,7 @@ app.get("/",(req,res)=>{
 })
 app.use("/posts",postRouter);
 app.use("/auth",authRouter);
-app.use("/user",userRouter);
+app.use("/user",userRouter);  
 const port = process.env.PORT
 app.listen(port, () => {
   console.log(`server is runing at localhost:${port}`);
